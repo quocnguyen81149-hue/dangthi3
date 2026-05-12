@@ -86,8 +86,8 @@ body[data-theme="dark"] .project-desc {
     margin: 0 auto;
     padding: 1rem 20px 1rem 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 .logo {
@@ -102,6 +102,10 @@ body[data-theme="dark"] .project-desc {
 .nav-links {
     display: flex;
     gap: 2rem;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 0;
 }
 
 .nav-links a {
@@ -129,10 +133,7 @@ body[data-theme="dark"] .project-desc {
 }
 
 .theme-btn {
-    position: absolute;
-    top: 50%;
-    right: 8px;
-    transform: translateY(-50%);
+    position: relative;
     width: 62px;
     height: 34px;
     border: none;
@@ -143,6 +144,7 @@ body[data-theme="dark"] .project-desc {
     transition: background 0.3s ease;
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .theme-btn::before {
