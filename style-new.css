@@ -131,7 +131,7 @@ body[data-theme="dark"] .project-desc {
 .theme-btn {
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 8px;
     transform: translateY(-50%);
     width: 62px;
     height: 34px;
